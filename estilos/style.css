@@ -7,13 +7,15 @@ a{
     text-decoration: none;
     color: black;
 }
+
 header {
-    background-color: black;
     width: 100%;
     height: 70px;
     display: flex;
     justify-content:space-between;
     align-content: center;
+    background-color: black;
+    
 }
 header nav{
     display: flex;
@@ -30,10 +32,18 @@ header nav ul{
 }
 header nav li a{
     text-decoration: none;
-    color: white;
     padding:0px 10px;
-}
+} 
 
+.nav-link{
+    color: white;
+    
+}
+.nav-link:hover{
+    color: rgba(255, 255, 255, 0.87);
+    
+    
+}
 .banner img{
     height: 600px;
     width: 100%;
@@ -99,9 +109,11 @@ button {
 
 footer {
     font-size: 12px;
-    height: 100px;
+    height: auto;
     text-align: center;
     background-color: lightgray;
+    
+
     
 }
 footer p{
@@ -112,6 +124,7 @@ footer p{
     list-style: none;
     display: flex;
     padding: 0px 10px;
+   
     
 }
 .footer-nav li{
@@ -147,15 +160,33 @@ footer p{
 }
 
 .banner-ayuda{
-    width: 950px;
-    height: 300px;
+    width: auto;
+    height: auto;
     border: 1px black solid;
     margin: 10px;
-    display: block;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+   
+    
 }
+.codigo-compra{
+    display: block;
+    flex-direction: column;  
+    text-align: center;
+}
+
+.devolucion{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+
+
 .banner-ayuda p {
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
 }
 input[type=text] {
@@ -169,31 +200,31 @@ input[type=text] {
     background-repeat: no-repeat;
     padding: 10px;
     
+    
   }
 
   .banner-locales{
-    width: 500px;
-    height: 300px;
+    width: auto;
+    height: auto;
     border: 1px black solid;
     margin: 10px;
     display: block;
     border-radius: 10px;
-    display:flex;
+    
     
   }
 
   .banner-locales p{
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
+    
   }
 
-  .logos-redes{
-    width: 50px;
-  }
+  
 
   .banner-mapas{
-    width: 500px;
-    height: 300px;
+    width: auto;
+    height: auto;
     border: 1px black solid;
     margin: 10px;
     display: block;
@@ -208,7 +239,22 @@ input[type=text] {
     
   }
 
+  .redes{
+    display: inline-block;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    
+
+  }
+  .logos-redes{
+    width: 50px;
+    text-align:center;
+    
+    
+  }
 @media (max-width:767px){
+  
     header{
         height: auto;
         flex-direction: column;
