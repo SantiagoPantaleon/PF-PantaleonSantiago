@@ -3,6 +3,10 @@
     padding: 0;
     font-family:"poppins";
 }
+body{
+    height: 1080px;
+    background-color: rgb(233, 232, 230);
+}
 a{
     text-decoration: none;
     color: black;
@@ -14,7 +18,7 @@ header {
     display: flex;
     justify-content:space-between;
     align-content: center;
-    background-color: black;
+    background-color: #1b1b18;
     
 }
 header nav{
@@ -133,8 +137,7 @@ footer p{
     height: auto;
 }
 
-/* Productos */
-/* ONSALE */
+
 
 .banner-sale{
     width: 500px;
@@ -162,9 +165,7 @@ footer p{
 .banner-ayuda{
     width: auto;
     height: auto;
-    border: 1px black solid;
     margin: 10px;
-    border-radius: 10px;
     display: flex;
     flex-direction: column;
    
@@ -206,7 +207,6 @@ input[type=text] {
   .banner-locales{
     width: auto;
     height: auto;
-    border: 1px black solid;
     margin: 10px;
     display: block;
     border-radius: 10px;
@@ -225,13 +225,14 @@ input[type=text] {
   .banner-mapas{
     width: auto;
     height: auto;
-    border: 1px black solid;
+    /* border: 1px black solid; */
     margin: 10px;
-    display: block;
     border-radius: 10px;
-    
-   
-  }
+    display: flex;
+
+}
+
+
   .banner-mapas p{
     font-size: 30px;
     text-align: center;
@@ -263,10 +264,25 @@ input[type=text] {
     header nav li a{
        font-size: 14px;
     }
+    .navbar-nav{
+        font-size: 10px;
+    }
     .banner img{
         height: 200px;
         width: 100%;
 
+
+    }
+    .banner-ayuda p{
+        font-size: 18px;
+        
+    }
+    .input-bar{
+        border: solid 1px black;
+        border-radius: 10px;
+        width: auto;
+        background-color: rgb(196, 196, 196);
+        
 
     }
 }
