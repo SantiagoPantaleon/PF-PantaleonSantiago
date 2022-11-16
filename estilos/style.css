@@ -55,18 +55,17 @@ header nav li a{
 
 }
 
-.nuevosProductos h2 {
-    margin-bottom: 6px;
+.nuevosProductos h1 {
+    margin-top: 20px;
     padding-left: 10px;
 }
 .card-group .card-1, .card-2, .card-3, .card-4{
     background-color: lightgray;
     margin: 8px;
 }
+
 .card-group img{
     width: 455px;
-    
-
 }
 
 
@@ -74,9 +73,6 @@ header nav li a{
     display: inline-block;
     text-align: center; 
     margin-bottom: 6px;
-    
-    
-
 }
 
 
