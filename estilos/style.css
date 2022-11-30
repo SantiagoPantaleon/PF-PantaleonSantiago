@@ -48,11 +48,19 @@ header nav li a{
     
     
 }
+
+
+/* ---------------------------------onsale-productos------------------------------------------------- */
 .banner img{
     height: 600px;
     width: 100%;
 
 
+}
+
+.card-group{
+    display: flex;
+    
 }
 
 .nuevosProductos h1 {
@@ -64,6 +72,8 @@ header nav li a{
     margin: 8px;
 }
 
+
+
 .card-group img{
     width: 455px;
 }
@@ -73,9 +83,11 @@ header nav li a{
     display: inline-block;
     text-align: center; 
     margin-bottom: 6px;
+    
+    
 }
 
-
+/*----------------------------------------------------------------------------------contacto----------------------------------------------------------------------------------*/
 
 .contacto{
     background-color: black;
@@ -133,7 +145,11 @@ footer p{
     height: auto;
 }
 
+.banner-sale-center{
+    display: flex;
+    justify-content: center;
 
+}
 
 .banner-sale{
     width: 500px;
@@ -142,11 +158,14 @@ footer p{
     margin: 10px;
     display: block;
     border-radius: 10px;
+    
+
 }
 
 .banner-sale p{
     font-size: 40px;
     text-align: center; 
+    
 }
 
 #descuento{
