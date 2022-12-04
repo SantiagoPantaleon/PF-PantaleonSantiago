@@ -60,6 +60,7 @@ header nav li a{
 
 .card-group{
     display: flex;
+   
     
 }
 
@@ -284,8 +285,9 @@ input[type=text] {
     .banner img{
         height: 200px;
         width: 100%;
-
-
+    }
+    .banner{
+        width: auto;
     }
     .banner-ayuda p{
         font-size: 18px;
@@ -299,4 +301,32 @@ input[type=text] {
         
 
     }
+
+    .nuevosProductos h1 {
+        margin-top: 20px;
+        padding-left: 10px;
+    }
+    .card-group .card-1, .card-2, .card-3, .card-4{
+        background-color: lightgray;
+        margin: 2px;
+    }
+    
+    
+    
+    .card-group img{
+        width: 100px;
+    }
+    
+    
+    .card-1, .card-2, .card-3, .card-4{
+        display: inline-block;
+        text-align: center; 
+        margin-bottom: 2px;
+        
+        
+    }
+    .card-group h4{
+        font-size: 18px;
+    }
+   
 }
