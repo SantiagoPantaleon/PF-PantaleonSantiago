@@ -1,14 +1,12 @@
 .contacto{
-    background-color: black;
-    height: 90px;
-    text-align: center;
-    font-size: 30px;
+        background-color: $primary_color;
+        height: 90px;
+        text-align: center;
+        font-size: 30px;
+        a{
+            color: $secondary_color;
+        }
 
-
-}
-
-.contacto a{
-    color: white;
 }
 
 .new{
@@ -18,12 +16,14 @@
 
 }
 button {
-    background-color: black;
-    color: white;
+    background-color: $primary_color;
+    color: $secondary_color;
     padding: 4px;
     font-size: 15px;
 }
 .new:hover a:hover {
-    color:darkgray;
+    color: $terciary_color;
     font-size: 32px;
 }
+
+

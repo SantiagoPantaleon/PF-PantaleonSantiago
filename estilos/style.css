@@ -12,6 +12,11 @@ a{
     color: black;
 }
 
+h2{
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
 header {
     width: 100%;
     height: 70px;
@@ -50,7 +55,7 @@ header nav li a{
 }
 
 
-/* ---------------------------------onsale-productos------------------------------------------------- */
+/*------------------------------------------------------------------------------------CARDS-IMAGENES*/
 .banner img{
     height: 600px;
     width: 100%;
@@ -88,8 +93,9 @@ header nav li a{
     
 }
 
+/*------------------------------------------------------------------------------------NEWSLETTER*/
 
-.contacto{
+/* .contacto{
     background-color: black;
     height: 90px;
     text-align: center;
@@ -117,9 +123,11 @@ button {
 .new:hover a:hover {
     color:darkgray;
     font-size: 32px;
-}
+} */
 
-footer {
+
+/*------------------------------------------------------------------------------------FOOTER*/
+/* footer {
     font-size: 12px;
     height: auto;
     text-align: center;
@@ -143,7 +151,9 @@ footer p{
     margin-top: 16px;
     padding: 0px 10px;
     height: auto;
-}
+} */
+
+/*------------------------------------------------------------------------------------BANNER-SALE-ONSALE*/
 
 .banner-sale-center{
     display: flex;
@@ -176,6 +186,8 @@ footer p{
 #oferta{
     font-size: 25px;
 }
+
+/*------------------------------------------------------------------------------------BANNER-AYUDA-CONTACTO*/
 
 .banner-ayuda{
     width: auto;
@@ -215,9 +227,9 @@ input[type=text] {
     background-position: 10px 10px; 
     background-repeat: no-repeat;
     padding: 10px;
-    
-    
-  }
+}
+
+/*------------------------------------------------------------------------------------BANNER-LOCALES-ACERCADENOSOTROS*/
 
   .banner-locales{
     width: auto;
@@ -250,24 +262,23 @@ input[type=text] {
   .banner-mapas p{
     font-size: 30px;
     text-align: center;
-    
-    
-  }
+}
 
-  .redes{
+.redes{
     display: inline-block;
     flex-direction: row;
     text-align: center;
     justify-content: center;
     
 
-  }
+}
   .logos-redes{
     width: 50px;
     text-align:center;
     
     
-  }
+}
+  
 @media (max-width:767px){
   
     header{

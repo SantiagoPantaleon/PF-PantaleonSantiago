@@ -1,0 +1,21 @@
+footer {
+    font-size: 12px;
+    height: auto;
+    text-align: center;
+    background-color: lightgray;
+    p{
+        padding: 0 10px;
+    }
+}
+
+
+.footer-nav{
+    list-style: none;
+    display: flex;
+    padding: 0px 10px;
+    li{
+        margin-top: 16px;
+        padding: 0px 10px;
+        height: auto;
+    }
+}
