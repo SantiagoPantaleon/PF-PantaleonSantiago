@@ -1,0 +1,29 @@
+.contacto{
+    background-color: black;
+    height: 90px;
+    text-align: center;
+    font-size: 30px;
+
+
+}
+
+.contacto a{
+    color: white;
+}
+
+.new{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+button {
+    background-color: black;
+    color: white;
+    padding: 4px;
+    font-size: 15px;
+}
+.new:hover a:hover {
+    color:darkgray;
+    font-size: 32px;
+}
