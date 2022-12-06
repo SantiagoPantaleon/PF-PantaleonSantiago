@@ -38,6 +38,111 @@ button {
   color: darkgray;
   font-size: 32px; }
 
+.banner img {
+  height: 600px;
+  width: 100%; }
+
+.card-group {
+  display: flex; }
+  .card-group img {
+    width: 455px; }
+  .card-group .card-1, .card-group .card-2, .card-group .card-3, .card-group .card-4 {
+    background-color: lightgray;
+    margin: 8px; }
+
+.nuevosProductos h1 {
+  margin-top: 20px;
+  padding-left: 10px; }
+
+.card-1, .card-2, .card-3, .card-4 {
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 6px; }
+
+.banner-sale-center {
+  display: flex;
+  justify-content: center; }
+
+.banner-sale {
+  width: 500px;
+  height: 300px;
+  border: 1px black solid;
+  margin: 10px;
+  display: block;
+  border-radius: 10px; }
+  .banner-sale p {
+    font-size: 40px;
+    text-align: center; }
+
+#descuento {
+  text-decoration: line-through;
+  color: red; }
+
+#oferta {
+  font-size: 25px; }
+
+.banner-ayuda {
+  width: auto;
+  height: auto;
+  margin: 10px;
+  display: flex;
+  flex-direction: column; }
+  .banner-ayuda p {
+    font-size: 30px;
+    text-align: center; }
+
+.codigo-compra {
+  display: block;
+  flex-direction: column;
+  text-align: center; }
+
+.devolucion {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 20px; }
+
+input[type=text] {
+  width: 50%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 10px; }
+
+.banner-locales {
+  width: auto;
+  height: auto;
+  margin: 10px;
+  display: block;
+  border-radius: 10px; }
+  .banner-locales p {
+    font-size: 30px;
+    text-align: center; }
+
+.banner-mapas {
+  width: auto;
+  height: auto;
+  margin: 10px;
+  border-radius: 10px;
+  display: flex; }
+  .banner-mapas p {
+    font-size: 30px;
+    text-align: center; }
+
+.redes {
+  display: inline-block;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center; }
+
+.logos-redes {
+  width: 50px;
+  text-align: center; }
+
 footer {
   font-size: 12px;
   height: auto;
