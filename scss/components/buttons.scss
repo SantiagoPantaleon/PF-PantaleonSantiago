@@ -15,15 +15,26 @@
     justify-content: center;
 
 }
-button {
-    background-color: $primary_color;
-    color: $secondary_color;
-    padding: 4px;
-    font-size: 15px;
-}
+// button {
+//     background-color: $primary_color;
+//     color: $secondary_color;
+//     padding: 4px;
+//     font-size: 15px;
+// }
 .new:hover a:hover {
     color: $terciary_color;
     font-size: 32px;
 }
 
 
+@mixin buttonColor($bk-color, $font-color){
+    button{
+         background-color: $bk-color;
+         color: $font-color;
+         padding: 4px;
+         font-size: 15px;  
+     }
+   
+}
+
+@include buttonColor($primary_color, $secondary_color)

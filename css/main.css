@@ -28,15 +28,15 @@ h2 {
   flex-direction: column;
   justify-content: center; }
 
+.new:hover a:hover {
+  color: darkgray;
+  font-size: 32px; }
+
 button {
   background-color: #000;
   color: white;
   padding: 4px;
   font-size: 15px; }
-
-.new:hover a:hover {
-  color: darkgray;
-  font-size: 32px; }
 
 .banner img {
   height: 600px;
